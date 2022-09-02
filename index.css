@@ -39,6 +39,7 @@ header{
 
 .nav_links li a:hover {
     color: #ffffff;
+    border: #77acd7;
 }
 
 button {
@@ -56,18 +57,38 @@ button.hover {
 
 /*flexbox*/
 
-.parent{
+.container {
+    border: #77acd7 2px solid;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    
+ }
+
+ .foto2 {
+    display: flex;
+    align-items: center;
+ }
+ 
+
+ .foto3 {
+    display:flex;
+ }
+
+ .foto4 {
+    display: flex;
+ }
+
+ .foto5 {
+    display: flex;
+ }
+
+.foto6 {
+    display: flex;
+}
+
+.container2 {
+    border: 5px solid #F5EDDC;
+    display: flex; 
   }
-  .child{
-    flex-basis: 33.33%;
-    width: 300px; height: 337px; object-fit: cover;
-    padding: 5px;
-    box-sizing: border-box;
-  }
+
+
   
-  .child img{
-  width: 100%;
-  }
